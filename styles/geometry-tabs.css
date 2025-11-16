@@ -1,4 +1,4 @@
-/* VIB34D Geometry Selection System - 8 Buttons + 3 Core Tabs */
+/* VIB34D Geometry Selection System - 9 Buttons + 3 Core Tabs (27 Total Geometries) */
 
 /* Geometry Container */
 .geometry-container {
@@ -124,10 +124,10 @@
     box-shadow: 0 0 20px rgba(255, 136, 0, 0.4), inset 0 0 10px rgba(255, 136, 0, 0.1);
 }
 
-/* Geometry Grid - 8 Base Geometry Buttons */
+/* Geometry Grid - 9 Base Geometry Buttons (3×3) */
 .geometry-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 
